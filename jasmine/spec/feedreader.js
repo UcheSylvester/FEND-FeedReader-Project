@@ -154,7 +154,7 @@ $(function() {
         // using beforeEach as loadFeed asynchronous functions 
         beforeEach(function(done) {
             loadFeed(0);
-            // converting the first contents to array the using the forEach method to store it's entry(elem) in the firstFeed array      
+            // converting the first contents to array using forEach method to store it's entry(elem) in the firstFeed array      
             const entries = Array.from(contents);
             for(let entry of entries) {
                 console.log(entry.innerText);
